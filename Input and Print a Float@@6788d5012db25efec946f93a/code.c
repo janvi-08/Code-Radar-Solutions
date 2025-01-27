@@ -2,6 +2,6 @@
 
 int main(){
     int n;
-    scanf("%f",&n);
-    prinf("%f",n);
+    scanf("%.2f",&n);
+    prinf("%.2f",n);
 }

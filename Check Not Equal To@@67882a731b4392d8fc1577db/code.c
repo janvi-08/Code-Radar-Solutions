@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main()[
+int main(){
     float a,b;
     scanf("%f%f",&a,&b);
     if(a!=b){
@@ -9,4 +9,4 @@ int main()[
     else{
         printf("False");
     }
-]
+}

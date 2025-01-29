@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(){
+void main(){
     int a,b,c;
     scanf("%d   %d   %d",&a,&b,&c);
     if(((a+b)>c)||((b+c)>a)||((c+a)>b)){
@@ -9,4 +9,5 @@ int main(){
     else{
         printf("Invalid");
     }
+    return 0;
 }

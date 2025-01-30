@@ -5,5 +5,5 @@ char ch;scanf("%c",&ch);
 if(ch=='+'){printf("%d",a+b);}
 else if(ch=='-'){printf("%d",a-b);}
 else if(ch=='*'){printf("%d",a*b);}
-else if(ch=='/'){printf("%d",a/b);}
+else if(ch=='/'){printf("%.2f",a/b);}
 }

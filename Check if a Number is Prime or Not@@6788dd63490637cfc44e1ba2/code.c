@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
-    int n; 
-    scanf("%d",&n);
+    int a; 
+    scanf("%d",&a);
     if(a==2 || a==3 || a==5 || a==7 || a==11 || a==13 ||a==17 || a==23){
         printf("Prime");
     }

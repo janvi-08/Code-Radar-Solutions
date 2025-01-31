@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main(){
-int a,b; scanf("%d%d",&a,&b);
-char ch;scanf("%c",&ch);
+int a,b; 
+char ch;
+scanf("%d%d%c",&a,&b,&ch);
 if(ch=='+'){printf("%d",a+b);}
 else if(ch=='-'){printf("%d",a-b);}
 else if(ch=='*'){printf("%d",a*b);}
-else if(ch=='/'){printf("%.2f",a/b);}
+else if(ch=='/'){printf("%d",a/b);}
 }

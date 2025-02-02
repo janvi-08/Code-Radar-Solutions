@@ -7,5 +7,9 @@ scanf("%c",&ch);
 if(ch=='+'){printf("%d",a+b);}
 else if(ch=='-'){printf("%d",a-b);}
 else if(ch=='*'){printf("%d",a*b);}
-else if(ch=='/'){printf("%d",a/b);}
+else if(ch=='/'){
+    if(b==0){printf("error");
+    }
+ }
+ else{printf("error");}
 }

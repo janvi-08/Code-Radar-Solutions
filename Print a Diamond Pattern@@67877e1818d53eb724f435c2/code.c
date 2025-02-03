@@ -2,18 +2,14 @@
 int main(){
     int n;
     scanf("%d",&n);
-    for(int i=0;i<n;i++){
-        for(int k=0;k<n-i;k++){printf(" "); }
-        for(int j=0;j<2*i-1;j++){
-            printf("*");
-        }
-        printf("\n");
-    }
-    for(int m=n-1;m>=1;m++){
-        for(int p=0;p<n-m;p++){
+    for(int i=1;i<=2*n-1;i++){
+        int stars=(i<=n)? 2*i-1:2*(2*n-i)-1;
+        int spaces=n-(i<=n ? i:2*n-1);
+
+        for(int j=1;j<=stars;j++){
             printf(" ");
         }
-        for(int r=0;r<2*m-1;r++){
+        for(int j=1;j<=stars;j++){
             printf("*");
         }
         printf("\n");

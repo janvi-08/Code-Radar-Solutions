@@ -11,5 +11,5 @@ int main(){
             max=array[i];
         }
     }
-    return max;
+    printf("%d ",max);
 }

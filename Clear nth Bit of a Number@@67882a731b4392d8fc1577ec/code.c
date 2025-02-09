@@ -3,6 +3,6 @@ int main(){
     int num,n;
     scanf("%d %d",&num,&n);
     int nth=1<<n ;
-    int clear= ~nth &1;
+    int clear= num& ~nth ;
     printf("%d",clear);
 }

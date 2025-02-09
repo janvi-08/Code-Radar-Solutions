@@ -8,7 +8,7 @@ int prime(n){
             }
         }
        
-    
+    return 1;
 }
 
 int main(){

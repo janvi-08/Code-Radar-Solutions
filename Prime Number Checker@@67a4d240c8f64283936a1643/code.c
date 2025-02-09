@@ -1,4 +1,5 @@
 #include <stdio.h>
+
 int prime(n){
     if(n<=1){
         return 0;}

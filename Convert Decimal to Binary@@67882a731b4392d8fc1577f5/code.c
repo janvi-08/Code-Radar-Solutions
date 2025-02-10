@@ -7,9 +7,9 @@ int main(){
     int answer=0;
     while(n!=0){
         int bit=n&1;
-        answer=answer+bit*pow(10,i);
+        answer=answer+bit*i;
         n>>1;
-        i++;
+        i*=10;
     }
     printf("%d",answer);
     

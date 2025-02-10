@@ -7,7 +7,7 @@ int main(){
     else{
         while(n&(1<<31)==0){
             count++;
-            n>>1;
+            n<<1;
         }
     }
     printf("%d",count);

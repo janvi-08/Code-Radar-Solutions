@@ -7,7 +7,7 @@ int main(){
     int answer=0;
     while(n!=0){
         int bit=n&1;
-        answer=answer+bit*i;
+        answer=answer+(bit*i);
         n=n>>1;
         i*=10;
     }

@@ -4,7 +4,7 @@
 int main(){
     int n,count;
     scanf("%d",&n);
-    if(n%2==0 && n!=0){
+    while(n%2==0 && n!=0){
         count++;
         n=n/2;
     }

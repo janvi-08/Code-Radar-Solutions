@@ -8,5 +8,5 @@ int main(){
         count++;
         n=n/2;
     }
-    printf("d",count);
+    printf("%d",count);
 }

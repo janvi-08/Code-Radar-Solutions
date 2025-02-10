@@ -2,6 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    int bit=n & (~n);
+    int result=(~n)+1;
+    int bit=n & result;
     printf("%d",bit);
 }

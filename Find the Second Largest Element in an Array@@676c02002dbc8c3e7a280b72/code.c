@@ -16,7 +16,7 @@ int main(){
         }
     }
     int max=arr[0];
-    int smax=INT-MIN;
+    int smax=INT_MIN;
     for(int i=1;i<n;i++){
         if(max<arr[i]){
             max=arr[i];

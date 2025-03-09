@@ -2,6 +2,9 @@
 int main(){
     int n;
     scanf("%d",&n);
+    if(n>2){
+        printf("1\n");
+    }
     int arr[n];
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);

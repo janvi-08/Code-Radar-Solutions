@@ -10,12 +10,8 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d ",&arr[i]);
     }
-    for(int i=0;i<n;i++){
-        if(arr[i]==arr[i+1]==arr[i+2]==arr[i+3]){
-            printf("-1");
-        }
-    }
-    int max=arr[0];
+    
+    int max=INT_MIN;
     int smax=INT_MIN;
     for(int i=1;i<n;i++){
         if(max<arr[i]){

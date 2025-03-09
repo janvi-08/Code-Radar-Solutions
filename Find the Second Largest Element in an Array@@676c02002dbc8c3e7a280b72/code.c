@@ -21,7 +21,8 @@ int main(){
         }
     }
     if (all_same) {
-        printf("-1");}
+        printf("-1");
+        break;}
     for(int i=1;i<n;i++){
         if(max<arr[i]){
             max=arr[i];

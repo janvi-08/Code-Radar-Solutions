@@ -2,7 +2,7 @@
 int main(){
     int n;
     scanf("%d",&n);
-    if(n<2){
+    if(n<=1){
         printf("-1 ");
     }
     int arr[n];

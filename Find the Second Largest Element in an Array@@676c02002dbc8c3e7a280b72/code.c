@@ -13,6 +13,15 @@ int main(){
     
     int max=INT_MIN;
     int smax=INT_MIN;
+    int all_same = 1;
+    for (int i = 1; i < n; i++) {
+        if (arr[i] != arr[0]) {
+            all_same = 0;
+            break;
+        }
+    }
+    if (all_same) {
+        print("-1");}
     for(int i=1;i<n;i++){
         if(max<arr[i]){
             max=arr[i];

@@ -6,14 +6,17 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",arr[i]);
     }
+    int palindrome=1;
     for(int i=0,j=n-1;i<j;i++,j--){
         if(arr[i]!=arr[j]){
-            printf("NO");
+            palindrome=0;
             break;
         }
-        
     }
-    printf("YES");
-    return 0;
-  
+    if(palindromee){
+        printf("YES");
+    }
+    else{
+        printf("NO");
+    }
 }

@@ -14,6 +14,10 @@ int main(){
     int min=arr[0];
     int smin=arr[0];
     for(int i=0;i<n;i++){
+        if(arr[i]==arr[i+1]){
+            printf("-1");
+            return 0;
+        }
         if(arr[i]<min){
             min=arr[i];
         }

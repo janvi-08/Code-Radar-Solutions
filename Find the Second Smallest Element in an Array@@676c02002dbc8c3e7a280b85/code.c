@@ -7,7 +7,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int min=INT_MAX;
+    int min=arr[0];
     int smin=INT_MAX;
     for(int i=0;i<n;i++){
         if(arr[i]<min){
@@ -15,7 +15,7 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        if(min!=smin && arr[i]<smin){
+        if(arr[i]!=min && arr[i]<smin){
             smin=arr[i];
         }
     }

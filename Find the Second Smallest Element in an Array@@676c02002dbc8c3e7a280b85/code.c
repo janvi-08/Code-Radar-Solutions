@@ -18,5 +18,5 @@ int main(){
             smin=arr[i];
         }
     }
-    prinf("%d",smin);
+    printf("%d",smin);
 }

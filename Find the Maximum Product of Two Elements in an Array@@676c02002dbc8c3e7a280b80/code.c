@@ -12,12 +12,11 @@ int main(){
         for(int j=i+1;j<n;j++){
             int product=arr[i]*arr[j];
             if(arr[i]*arr[j]>max){
-                max=arr[i]*arr[j];
+                max=product;
             }
              
         }
-        printf("%d",max);
-       
     }
+    printf("%d",max);
    
 }

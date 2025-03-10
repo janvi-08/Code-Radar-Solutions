@@ -20,7 +20,7 @@ int main(){
             }
         }
     }
-    if(ixprime==1){
+    if(isprime==1){
         printf("%d",k);
     }
 }

@@ -7,8 +7,9 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int k=0;
-    int isprime=0;
+    
     for(int i=0;i<n;i++){
+        int isprime=1;
         for(int j=2;j<arr[i];j++){
             if(arr[i]%j==0){
                isprime=0;

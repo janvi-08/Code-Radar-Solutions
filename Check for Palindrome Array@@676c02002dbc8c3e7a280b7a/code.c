@@ -9,11 +9,11 @@ int main(){
     for(int i=0,j=n-1;i<j;i++,j--){
         if(arr[i]!=arr[j]){
             printf("NO");
+            break;
         }
-        else{
-            printf("YES");
-        }
+        
     }
+    printf("YES");
     return 0;
   
 }

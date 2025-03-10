@@ -11,8 +11,8 @@ int main(){
         int temp=arr[i];
         int sum=0;
         while(temp!=0){
-            temp=temp%10;
-            sum=sum+temp;
+            int r=temp%10;
+            sum=sum+r;
             temp=temp/10;
         }
         printf("%d ",sum);

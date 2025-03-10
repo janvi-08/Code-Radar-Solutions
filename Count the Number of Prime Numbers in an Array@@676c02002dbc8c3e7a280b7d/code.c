@@ -21,9 +21,9 @@ int main(){
             }
             
         }
-    }
     if(isprime==1){
         k++;
-        printf("%d",k);
     }
+}
+printf("%d",k);
 }

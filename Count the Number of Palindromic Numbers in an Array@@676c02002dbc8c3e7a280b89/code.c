@@ -8,8 +8,8 @@ int main(){
     }
     int count=0;
     for(int i=0;i<n;i++){
-        for(int i=0,j=n-1;i<j;i++,j--){
-        if(arr[i]!=arr[j]){
+        for(int k=0,j=n-1;k<j;k++,j--){
+        if(arr[k]!=arr[j]){
             return 0;
         }
         else{
@@ -18,6 +18,7 @@ int main(){
         
     }
     printf("%d",count);
+    
     }
     
 

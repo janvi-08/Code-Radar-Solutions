@@ -8,9 +8,8 @@ int main(){
     }
     
     for(int i=0;i<n;i++){
-         int max=-1;
+         int max=arr[0];
         for(int j=i+1;j<n;j++){
-           
             int product=arr[i]*arr[j];
             if(arr[i]*arr[j]>max){
                 max=arr[i]*arr[j];

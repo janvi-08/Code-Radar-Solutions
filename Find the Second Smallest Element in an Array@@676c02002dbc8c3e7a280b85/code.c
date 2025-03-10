@@ -7,6 +7,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    if(n<=1){
+        printf("-1");
+        return 0;
+    }
     int min=arr[0];
     int smin=arr[0];
     for(int i=0;i<n;i++){

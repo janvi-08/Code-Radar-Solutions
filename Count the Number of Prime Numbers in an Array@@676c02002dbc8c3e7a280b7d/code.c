@@ -19,13 +19,11 @@ int main(){
                isprime=0;
                break;
             }
-            else{
-                isprime=1;
-                k++;
-            }
+            
         }
     }
     if(isprime==1){
+        k++;
         printf("%d",k);
     }
 }

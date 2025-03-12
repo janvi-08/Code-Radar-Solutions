@@ -9,10 +9,10 @@ int main(){
         scanf("%d",&arr[i]);
     }
     k=k%n;
-    for(int i=n+1-k;i<n;i++){
+    for(int i=n-k-1;i<n;i++){
         printf("%d\n",arr[i]);
     }
-    for(int i=0;i<n+1-k;i++){
+    for(int i=0;i<n-k-1;i++){
         printf("%d\n",arr[i]);
     }
 }

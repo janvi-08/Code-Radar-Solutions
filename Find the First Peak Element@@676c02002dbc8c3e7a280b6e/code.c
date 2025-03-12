@@ -9,7 +9,11 @@ int main(){
     int peak=0;
     int element=0;
     for(int i=0;i<n;i++){
-        if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+        if(arr[i]==arr[i+1]){
+            peak=0;
+            break;
+        }
+        else if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
             element=arr[i];
             peak=1;
             break;
@@ -19,10 +23,7 @@ int main(){
             peak=1;
             break;
         }
-        else if(arr[i]==arr[i+ 1]){
-            peak=0;
-            break;
-        }
+        
     }
     if(peak==0){
         printf("-1");

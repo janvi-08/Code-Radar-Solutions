@@ -13,8 +13,9 @@ int main(){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
+                sorted=1;
             }
-            sorted=1;
+            
         }
     }
     if(sorted==0){

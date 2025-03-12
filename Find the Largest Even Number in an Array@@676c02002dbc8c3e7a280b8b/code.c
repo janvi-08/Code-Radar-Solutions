@@ -7,7 +7,7 @@ int main(){
         scanf("%d",&arr[i]);
     }
     int even=1;
-    int max=-1;
+    int max=-100;
     for(int i=0;i<n;i++){
         if(arr[i]%2!=0){
             even=0;

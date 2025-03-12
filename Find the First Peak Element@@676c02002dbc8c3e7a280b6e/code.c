@@ -8,8 +8,13 @@ int main(){
     }
     int peak=0;
     int element=0;
-    for(int i=0;i<n-1;i++){
+    for(int i=0;i<n;i++){
         if(arr[i]>arr[i-1] && arr[i]>arr[i+1]){
+            element=arr[i];
+            peak=1;
+            break;
+        }
+        else if(i=n-1 && arr[i]>arr[i-1]){
             element=arr[i];
             peak=1;
             break;

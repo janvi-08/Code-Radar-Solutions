@@ -20,7 +20,7 @@ int main(){
     }
     if (even) {
         printf("%d", max); 
-    } else if (max != -1) {
+    } else if (max != -100) {
         printf("%d", max); 
     } else {
         printf("-1"); 

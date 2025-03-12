@@ -6,19 +6,20 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    int sorted=0;
+    
     for(int i=0;i<n-1;i++){
+        int swapped=0;
         for(int j=0;j<n-1;j++){
             if(arr[j]>arr[j+1]){
                 int temp=arr[j];
                 arr[j]=arr[j+1];
                 arr[j+1]=temp;
-                sorted=1;
+                swapped=1;
             }
             
         }
     }
-    if(sorted==0){
+    if(swapped==1){
         printf("Not Sorted");
     }
     else{

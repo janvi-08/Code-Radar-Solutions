@@ -19,6 +19,10 @@ int main(){
             peak=1;
             break;
         }
+        else if(arr[i]==arr[i+ 1]){
+            peak=0;
+            break;
+        }
     }
     if(peak==0){
         printf("-1");

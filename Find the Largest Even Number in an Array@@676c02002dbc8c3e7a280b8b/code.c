@@ -18,12 +18,11 @@ int main(){
            }
         }
     }
-
-  
-    if(even==0){
-        printf("-1");
-    }
-    else{
-        printf("%d",max);
+    if (even) {
+        printf("%d", max); 
+    } else if (max != -1) {
+        printf("%d", max); 
+    } else {
+        printf("-1"); 
     }
 }

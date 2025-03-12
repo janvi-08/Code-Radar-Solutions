@@ -12,7 +12,7 @@ int main(){
     for(int i=n-k-2;i<n;i++){
         printf("%d\n",arr[i]);
     }
-    for(int i=0;i<n-k-4;i++){
+    for(int i=0;i<n-k-2;i++){
         printf("%d\n",arr[i]);
     }
 }

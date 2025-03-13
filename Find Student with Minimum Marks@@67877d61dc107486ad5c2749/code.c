@@ -17,7 +17,7 @@ int main(){
     int min=0;
     for(int i=1;i<n;i++){
         if(s[i].marks<s[min].marks){
-            min=s[i].marks;
+            min=i;
         }
     }
     printf("Student with Minimum Marks: Roll Number: %d, Name: %s, Marks: %.2f",s[min].roll,s[min].name,s[min].marks);

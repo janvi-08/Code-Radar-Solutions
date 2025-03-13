@@ -14,7 +14,7 @@ int main(){
         scanf("%s",s[i].name);
         scanf("%f",&s[i].marks);
     }
-    float min=0;
+    int min=0;
     for(int i=1;i<n;i++){
         if(s[i].marks<s[min].marks){
             min=s[i].marks;

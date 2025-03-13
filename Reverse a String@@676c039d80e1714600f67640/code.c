@@ -1,11 +1,11 @@
 #include<stdio.h>
 #include<string.h>
 int main(){
-    char ch[100];
-    scanf("%[^\n]s",ch);
+    char arr[100];
+    scanf("%[^\n]s",arr);
     int size=0;
     int i=0;
-    while(ch[i]!='\0'){
+    while(arr[i]!='\0'){
         size++;
         i++;
     }

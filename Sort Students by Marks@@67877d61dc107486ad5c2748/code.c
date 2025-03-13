@@ -8,11 +8,11 @@ struct student{
 int main(){
     int n;
     scanf("%d",&n);
-    struct student s[n];
+    struct student arr[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&s[i].roll);
-        scanf("%s",s[i].name);
-        scanf("%f",&s[i].marks);
+        scanf("%d",&arr[i].roll);
+        scanf("%s",arr[i].name);
+        scanf("%f",&arr[i].marks);
     }
     for(int i=0;i<n-1;i++){
         for(int j=0;j<n-1;j++){
@@ -24,6 +24,6 @@ int main(){
         }
     }
     for(int i=0;i<n;i++){
-        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",s[i].roll,s[i].name,s[i].marks);
+        printf("Roll Number: %d, Name: %s, Marks: %.2f\n",arr[i].roll,arr[i].name,arr[i].marks);
     }
 }

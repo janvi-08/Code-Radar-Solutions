@@ -12,11 +12,11 @@ int main(){
     for(int i=1;i<=n;i++){
         scanf("%d",&s[i].roll);
         scanf("%s",s[i].name);
-        scanf("%f",&s[i].percentage);
+        scanf("%f",&s[i].marks);
     }
     for(int i=1;i<=n;i++){
         printf("%d",s[i].roll);
         printf("%s",s[i].name);
-        printf("%f",s[i].percentage);
+        printf("%f",s[i].marks);
     }
 }

@@ -18,12 +18,17 @@ int main(){
     for(int i=0;i<n;i++){
         if(s[i].type=="Cars "){
             s[i].sum += s[i].amount;
+            printf("Cars: %.2f,", s[i].sum);
         }
         else if(s[i].type=="Trucks"){
             s[i].sum += s[i].amount;
+            printf(" Trucks: %.2f,", s[i].sum);
         }
         else if(s[i].type=="Bikes"){
             s[i].sum += s[i].amount;
+            printf(" Bikes : %.2f,", s[i].sum)
         }
+        printf("\n");
     }
+    
 }

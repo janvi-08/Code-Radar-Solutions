@@ -16,7 +16,11 @@ int main(){
     }
     for(int i=0;i<=n;i++){
         printf("Cars: %.2f,",s[i].amount);
+        }
+        for(int i=0;i<=n;i++){
         printf(" Trucks: %.2f,",s[i].amount);
+        }
+        for(int i=0;i<=n;i++){
         printf(" Bikes: %.2f\n",s[i].amount);
     
 }

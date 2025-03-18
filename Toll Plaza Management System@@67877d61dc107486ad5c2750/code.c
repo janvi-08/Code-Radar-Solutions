@@ -26,7 +26,7 @@ int main(){
         }
         else if(s[i].type=="Bikes"){
             s[i].sum += s[i].amount;
-            printf(" Bikes : %.2f,", s[i].sum)
+            printf(" Bikes : %.2f,", s[i].sum);
         }
         printf("\n");
     }

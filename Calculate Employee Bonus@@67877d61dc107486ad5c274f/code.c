@@ -16,7 +16,7 @@ int main(){
     }
     int bonus=0;
     for(int i=0;i<n;i++){
-    if(salary<50000){
+    if(struct salary s[i]<50000){
         bonus=(10*salary)/100;
     }
     else{

@@ -4,6 +4,7 @@ struct Employee{
     int id;
     char name[100];
     float salary;
+    float bonus;
 };
 int main(){
     int n;
@@ -14,9 +15,9 @@ int main(){
         scanf("%s",s[i].name);
         scanf("%f",&s[i].salary);
     }
-    int bonus=0;
+    float bonus=0;
     for(int i=0;i<n;i++){
-    if(struct salary s[i]<50000){
+    if(s[i].salary <50000){
         bonus=(10*salary)/100;
     }
     else{

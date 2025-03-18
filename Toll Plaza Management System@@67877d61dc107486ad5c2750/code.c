@@ -4,6 +4,7 @@ struct vehicle{
     char num[100];
     char type[100];
     float amount;
+    float sum;
 };
 int main(){
     int n;
@@ -14,14 +15,15 @@ int main(){
         scanf("%s",s[i].type);
         scanf("%f",&s[i].amount);
     }
-    for(int i=0;i<=n;i++){
-        printf("Cars: %.2f,",s[i].amount);
+    for(int i=0;i<n;i++){
+        if(s[i].type=="Cars "){
+            s[i].sum += s[i].amount;
         }
-        for(int i=0;i<=n;i++){
-        printf(" Trucks: %.2f,",s[i].amount);
+        else if(s[i].type=="Trucks"){
+            s[i].sum += s[i].amount;
         }
-        for(int i=0;i<=n;i++){
-        printf(" Bikes: %.2f\n",s[i].amount);
-    
-}
+        else if(s[i].type=="Bikes"){
+            s[i].sum += s[i].amount;
+        }
+    }
 }

@@ -18,10 +18,10 @@ int main(){
     
     for(int i=0;i<n;i++){
     if(s[i].salary <50000){
-        s[i].bonus=(10*salary)/100;
+        s[i].bonus=(10*s[i].salary)/100;
     }
     else{
-        s[i].bonus=(5*salary)/100;
+        s[i].bonus=(5*s[i].salary)/100;
     }
     }
     for(int i=0;i<n;i++){

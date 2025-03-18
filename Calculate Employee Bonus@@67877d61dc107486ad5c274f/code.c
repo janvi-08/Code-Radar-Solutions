@@ -10,7 +10,7 @@ int main(){
     scanf("%d",&n);
     struct Employee s[n];
     for(int i=0;i<n;i++){
-        scanf("%d",&s[i].roll);
+        scanf("%d",&s[i].id);
         scanf("%s",s[i].name);
         scanf("%f",&s[i].salary);
     }

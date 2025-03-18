@@ -14,7 +14,7 @@ int main(){
         scanf("%s",s[i].type);
         scanf("%f",&s[i].amount);
     }
-    for(int i=0;i<=0;i++){
+    for(int i=0;i<=n;i++){
         printf("Cars: %.2f,",s[i].amount);
         printf(" Trucks: %.2f,",s[i].amount);
         printf(" Bikes: %.2f\n",s[i].amount);

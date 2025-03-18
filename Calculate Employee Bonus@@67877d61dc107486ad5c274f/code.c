@@ -15,13 +15,13 @@ int main(){
         scanf("%s",s[i].name);
         scanf("%f",&s[i].salary);
     }
-    float bonus=0;
+    
     for(int i=0;i<n;i++){
     if(s[i].salary <50000){
-        bonus=(10*salary)/100;
+        s[i].bonus=(10*salary)/100;
     }
     else{
-        bonus=(5*salary)/100;
+        s[i].bonus=(5*salary)/100;
     }
     }
     for(int i=0;i<n;i++){

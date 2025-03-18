@@ -14,11 +14,10 @@ int main(){
         scanf("%s",s[i].type);
         scanf("%f",&s[i].amount);
     }
-    
-    
-    
-        printf("Cars: %s,",s[i].num);
+    for(int i=0;i<n;i++){
+    printf("Cars: %s,",s[i].num);
         printf(" Trucks: %s,",s[i].num);
         printf(" Bikes: %.2f\n",s[i].num);
     
+}
 }

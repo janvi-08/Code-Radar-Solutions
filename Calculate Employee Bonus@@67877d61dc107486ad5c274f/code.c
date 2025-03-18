@@ -27,6 +27,6 @@ int main(){
     for(int i=0;i<n;i++){
         printf("Employee ID: %d,",s[i].id);
         printf(" Name: %s,",s[i].name);
-        printf(" Bonuss: %.2f\n",s[i].bonus);
+        printf(" Bonus: %.2f\n",s[i].bonus);
     }
 }

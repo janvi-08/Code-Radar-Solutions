@@ -28,7 +28,7 @@ int main(){
         if(s[i].marks>=85){
             grade='A';
         }
-        else if(s[i].marks<84 && s[i].marks>70){
+        else if(s[i].marks<=84 && s[i].marks>=70){
             grade='B';
         }
         else if(s[i].marks<70){

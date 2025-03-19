@@ -12,10 +12,10 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%s",s[i].book);
         scanf("%s",s[i].Author);
-        scanf("%f",&s[i].price);
+        scanf("%d",&s[i].price);
     }
-    int k;
-    scanf("%.2f",&k);
+    float k;
+    scanf("%f",&k);
     printf("Books above price %.2f:\n",k);
     for(int i=0;i<n;i++){
        if(s[i].price>k){

@@ -3,7 +3,7 @@
 struct Book{
     char book[100];
     char Author[100];
-    int price;
+    float price;
 };
 int main(){
     int n;

@@ -14,15 +14,7 @@ int main(){
         scanf("%s",s[i].name);
         scanf("%f",&s[i].marks);
     }
-    for(int i=0;i<n;i++){
-        for(int j=0;j<n;j++){
-            if(s[i+1].marks>s[i].marks){
-                struct student temp=s[i];
-                s[i]=s[i+1];
-                s[i+1]=temp;
-            }
-        }
-    }
+    
     char grade;
     for(int i=0;i<n;i++){
         if(s[i].marks>=85){

@@ -23,9 +23,17 @@ int main(){
             }
         }
     }
-    
+    char grade;
     for(int i=0;i<n;i++){
-        char grade='A'+i;
+        if(s[i].marks>=85){
+            grade='A';
+        }
+        else if(s[i].marks<84 && s[i].marks>70){
+            grade='B';
+        }
+        else if(s[i].marks<70){
+            grade='C';
+        }
         printf("Roll Number: %d,",s[i].roll);
         printf(" Name: %s,",s[i].name);
         printf(" Grade: %c\n",grade);

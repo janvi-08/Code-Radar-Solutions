@@ -19,6 +19,6 @@ int main(){
        s[i]. Perimeter=2*(s[i].length+s[i].breadth);
     }
     for(int i=1;i<=n;i++){
-    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f ",i,s[i].Area,s[i].Perimeter);
+    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n ",i,s[i].Area,s[i].Perimeter);
     }
 }

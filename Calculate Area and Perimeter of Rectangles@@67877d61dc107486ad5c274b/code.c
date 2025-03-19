@@ -3,6 +3,8 @@
 struct Rectangle{
     int length;
     int breadth;
+     float Area;
+    float Perimeter;
 };
 int main(){
     int n;
@@ -12,8 +14,6 @@ int main(){
         scanf("%d",&s[i].length);
         scanf("%d",&s[i].breadth);
     }
-    float Area=0;
-    float Perimeter=0;
     for(int i=0;i<n;i++){
         s[i].Area=s[i].length*s[i].breadth;
        s[i]. Perimeter=0.5*s[i].length*s[i].breadth;

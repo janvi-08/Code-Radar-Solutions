@@ -1,8 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 struct Book{
-    char book;
-    char Author;
+    char book[100];
+    char Author[100];
     int price;
 };
 int main(){

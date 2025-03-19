@@ -28,6 +28,6 @@ int main(){
         char grade='A'+i;
         printf("Roll Number: %d,",s[i].roll);
         printf(" Name: %s,",s[i].name);
-        printf(" Grade: %c\n",s[i].grade);
+        printf(" Grade: %c\n",grade);
     }
 }

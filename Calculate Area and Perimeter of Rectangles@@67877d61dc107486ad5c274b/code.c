@@ -15,10 +15,10 @@ int main(){
         scanf("%d",&s[i].breadth);
     }
     for(int i=0;i<n;i++){
-        s[i].Area=s[i].length*s[i].breadth;
+       s[i].Area=s[i].length*s[i].breadth;
        s[i]. Perimeter=2*(s[i].length+s[i].breadth);
     }
-    for(int i=1;i<=n;i++){
-    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",i,s[i].Area,s[i].Perimeter);
+    for(int i=0;i<n;i++){
+    printf("Rectangle %d: Area = %.2f, Perimeter = %.2f\n",i+1,s[i].Area,s[i].Perimeter);
     }
 }

@@ -10,8 +10,9 @@ int main(){
     for (int i=0;i<n;i++){
         counted[i]=0;
     }
-    int k=0;
+    
     for(int i=0;i<n;i++){
+        int k=0;
         if(counted[i]==0){
             k=1;
         }

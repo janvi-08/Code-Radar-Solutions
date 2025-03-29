@@ -7,7 +7,7 @@ int main(){
     char idx;
     for(int i=0;i!='\0';i++){
         int count=0;
-        for(int j=0;j!='\0',j++){
+        for(int j=0;j!='\0';j++){
             if(ch[i]==ch[j]){
                 count++;
             }

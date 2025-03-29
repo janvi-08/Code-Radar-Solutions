@@ -9,7 +9,7 @@ int main(){
     }
     for(int i=0;i<k;i++){
         if(ch[i]=='a'|| ch[i]=='e'|| ch[i]=='i'|| ch[i]=='o' || ch[i]=='u' || ch[i]=='A'|| ch[i]=='E' || ch[i]=='I'|| ch[i]=='O'|| ch[i]=='U'){
-            ch[i]=='*';
+            ch[i]='*';
         }
     }
     for(int i=0;i<k;i++){

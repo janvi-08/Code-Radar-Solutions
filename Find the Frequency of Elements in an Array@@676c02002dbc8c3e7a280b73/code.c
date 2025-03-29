@@ -25,3 +25,4 @@ int main(){
         counted[i]=1;
     }
 }
+}

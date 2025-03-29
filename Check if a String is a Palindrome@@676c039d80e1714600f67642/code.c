@@ -8,12 +8,12 @@ int main() {
     scanf("%[^\n]s", ch);
     
     int k = 0;
-    int i = 0;
+    int n = 0;
     
     // Find the length of the string
-    while(ch[i] != '\0') {
+    while(ch[n] != '\0') {
         k++;
-        i++;
+        n++;
     }
     
     int ispalindrome = 1;  // Assume the string is a palindrome initially

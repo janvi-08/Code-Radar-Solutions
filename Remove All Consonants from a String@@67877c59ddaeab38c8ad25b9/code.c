@@ -8,10 +8,10 @@ int main(){
             continue;
         }
         else{
-            ch[i]=" ";
+            ch[i]='';
         }
     }
-    for(int i=0;i<n;i++){
-       printf("%s\n",ch[i]);
-    }
+
+       printf("%s\n",ch);
+    
 }

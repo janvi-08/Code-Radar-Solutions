@@ -13,5 +13,4 @@ int main(){
     }
 
        printf("%s\n",ch);
-    
 }

@@ -7,11 +7,13 @@ int main(){
     int i=0;
     while(ch[i]!='\0'){
         k++;
+        i++;
     }
     int ispalindrome=1;
     for(int i=0,int j=k-1;i<j;i++,j--){
-        if(arr[i]==arr[j]){
+        if(ch[i]==ch[j]){
             ispalindrome=0;
+            break;
    }
 }
 if(ispalindrome==0){

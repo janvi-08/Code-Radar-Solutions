@@ -8,7 +8,7 @@ int main(){
             continue;
         }
         else{
-            ch[i]=' ';
+            ch[i]='\0';
         }
     }
 

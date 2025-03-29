@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char ch[100];
-    scanf("%[^\n]*c\n",ch);
+    scanf("%[^\n]s\n",ch);
     char n;
     scanf("%c",&n);
     int k=0;

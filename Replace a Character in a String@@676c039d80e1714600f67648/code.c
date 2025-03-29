@@ -7,7 +7,13 @@ int main(){
     scanf("%c",&n);
     char m;
     scanf("%c",&m);
-    for(int i=0;i<n;i++){
+    int k=0;
+    int y=0;
+    while(ch[y]!='\0'){
+        k++;
+        y++;
+    }
+    for(int i=0;i<k;i++){
         if(ch[i]==n){
             ch[i]==m;
         };

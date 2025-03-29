@@ -24,6 +24,7 @@ int main(){
         int max=-1;
         if(max<k){
             printf("%d",k);
+            break;
         }
         
     }

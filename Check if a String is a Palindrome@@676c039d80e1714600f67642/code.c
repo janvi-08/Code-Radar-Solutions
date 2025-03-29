@@ -9,6 +9,9 @@ int main(){
         k++;
         n++;
     }
+    if(k==1){
+        printf("Yes");
+    }
     int ispalindrome=0;
     for(int i=0,j=k-1;i<j;i++,j--){
         if(ch[i]==ch[j]){

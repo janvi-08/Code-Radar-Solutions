@@ -4,10 +4,10 @@ int main(){
     char ch[100];
     scanf("%[^\n]s",ch);
     char n;
-    scanf("%c\n",&n);
+    scanf(" %c\n",&n);
     char m;
-    scanf("%c\n",&m);
-    for(int i=0;i!='\0';i++){
+    scanf(" %c\n",&m);
+    for(int i=0;ch[i]!='\0';i++){
         if(ch[i]==n){
             ch[i]=m;
         };

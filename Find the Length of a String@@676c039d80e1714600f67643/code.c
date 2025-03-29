@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char ch[100];
-    fgets("%s",ch);
+    scanf("%s",ch);
     int i=0;
     int k=0;
     while(ch[i]!='\0'){

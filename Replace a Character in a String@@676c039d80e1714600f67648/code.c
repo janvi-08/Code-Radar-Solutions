@@ -4,9 +4,9 @@ int main(){
     char ch[100];
     scanf("%[^\n]s",ch);
     char n;
-    scanf("%c",&n);
+    scanf("%c\n",&n);
     char m;
-    scanf("%c",&m);
+    scanf("%c\n",&m);
     for(int i=0;i!='\0';i++){
         if(ch[i]==n){
             ch[i]=m;

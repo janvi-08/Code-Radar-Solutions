@@ -11,7 +11,5 @@ int main(){
             ch[i]=m;
         }
     }
-    for(int i=0;i<n;i++){
-       printf("%c",ch[i]);
+       printf("%s",ch);
     }
-}

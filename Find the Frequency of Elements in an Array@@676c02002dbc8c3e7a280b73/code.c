@@ -22,7 +22,7 @@ int main(){
             }
         }
         printf("%d %d\n",arr[i],k);
-        
+        counted[i]=1;
     }
 }
 }

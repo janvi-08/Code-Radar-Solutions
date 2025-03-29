@@ -11,6 +11,7 @@ int main(){
     }
     if(k==1){
         printf("Yes");
+        return 0;
     }
     int ispalindrome=0;
     for(int i=0,j=k-1;i<j;i++,j--){

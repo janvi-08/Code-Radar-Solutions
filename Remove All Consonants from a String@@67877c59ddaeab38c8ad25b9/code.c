@@ -6,8 +6,6 @@ int main() {
     char result[100]; // To store vowels
     int j = 0;
 
-    // Read the input string
-    printf("Enter the string: ");
     scanf("%[^\n]s", ch);
 
     // Loop through the string to extract vowels

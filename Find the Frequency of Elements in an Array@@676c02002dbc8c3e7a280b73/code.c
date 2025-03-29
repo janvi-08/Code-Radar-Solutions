@@ -6,14 +6,21 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
-    
+    int counted[n];
+    for (int i=0;i<n;i++){
+        counted[i]=0;
+    }
     for(int i=0;i<n;i++){
+        if(counted[i]==0){
         int k=1;
+        }
         for(int j=i+1;j<n;j++){
             if(arr[i]==arr[j]){
                 k++;
+                counted[j]=1;
             }
         }
         printf("%d %d\n",arr[i],k);
+        counted[i]=1;
     }
 }

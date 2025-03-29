@@ -20,3 +20,4 @@ if(ispalindrome==0){
 else{
     printf("No");
 }
+}

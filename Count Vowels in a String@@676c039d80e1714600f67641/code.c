@@ -7,10 +7,11 @@ int main(){
     while(ch[k]!='\0'){
         k++;
     }
+    int n=0;
     for(int i=0;i<k;i++){
         if((ch[i]>='a'&& ch[i]<='z') ||(ch[i]>='A' && ch[i]<='Z')){
-            k++;
+            n++;
         }
     }
-    printf("%d",k);
+    printf("%d",n);
 }

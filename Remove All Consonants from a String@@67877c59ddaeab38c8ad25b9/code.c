@@ -21,7 +21,7 @@ int main() {
     result[j] = '\0'; // Null-terminate the result string
 
     // Print the modified string
-    printf("Vowels only: %s\n", result);
+    printf(result);
 
     return 0;
 }

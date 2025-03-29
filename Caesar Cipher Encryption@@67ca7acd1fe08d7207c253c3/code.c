@@ -6,9 +6,9 @@ int main(){
     int n;
     scanf("%d",&n);
     for(int i=0;i<n;i++){
-        ch[i]+ n =ch[i];
+        ch[i]=ch[i]+n;
     }
-    for(int i=0;i<n;i++){
-       printf("%s",ch[i]);
-    }
+    
+       printf("%s",ch);
+    
 }

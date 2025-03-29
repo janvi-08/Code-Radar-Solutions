@@ -15,7 +15,7 @@ int main(){
     }
     for(int i=0;i<k;i++){
         if(ch[i]==n){
-            ch[i]==m;
+            ch[i]=m;
         };
     }
     for(int i=0;i<n;i++){

@@ -13,5 +13,7 @@ int main(){
             printf("*");
         }
     }
-    printf("%s",ch);
+    for(int i=0;i<k;i++){
+    printf("%c",ch[i]);
+}
 }

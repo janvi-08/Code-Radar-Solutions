@@ -5,9 +5,9 @@ int main(){
     scanf("%[^\n]s",ch);
     int max=-1;
     char idx;
-    for(int i=0;i!='\0';i++){
+    for(int i=0;ch[i]!='\0';i++){
         int count=0;
-        for(int j=0;j!='\0';j++){
+        for(int j=0;ch[j]!='\0';j++){
             if(ch[i]==ch[j]){
                 count++;
             }

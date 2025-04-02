@@ -4,8 +4,6 @@ int gateOpen(int threshold,int entryTimes[],int n){
         if(abs(entryTimes[i])==threshold){
             return 1;
         }
-        else{
-            return 0;
-        }
     }
+    return 0;
 }

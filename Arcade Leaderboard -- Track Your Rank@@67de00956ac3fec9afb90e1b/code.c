@@ -14,7 +14,7 @@ void trackPlayerRanks(int ranked[],int n,int player[],int m,int result[] ){
         for(int j=0;j<m;j++){
             int playerscore=player[j];
             int rank =size + 1;
-        }
+        
         for(int k=0;k<size;k++){
             if(playerscore>=ranked[k]){
                 rank=k+1;
@@ -23,3 +23,4 @@ void trackPlayerRanks(int ranked[],int n,int player[],int m,int result[] ){
         }
          result[j] = rank;
     }
+}

@@ -25,7 +25,6 @@ int main(){
      int min = INT_MAX;
     int idx1 = -1, idx2 = -1;
 
-    // Compare adjacent elements in the sorted array
     for (int i = 0; i < n - 1; i++) {
         int diff = abs(arr[i] - arr[i+1]);
         if (diff < min) {

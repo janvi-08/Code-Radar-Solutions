@@ -10,7 +10,7 @@ int duplicates(int ranked[],int n){
 }
 
 void trackPlayerRanks(int ranked[],int n,int player[],int m,int result[] ){
-    int size=duplicates(int ranked[],int n){
+    int size=duplicates(ranked, n){
         for(int j=0;j<m;j++){
             int playerscore=player[j];
             int rank =size + 1;

@@ -11,8 +11,8 @@ int main(){
     int idx1=-1;
     int idx2=-1;
     for(int i=0;i<n;i++){
-        for(int j=1;j<n;j++){
-            if(arr[i]-arr[j]<min){
+        for(int j=0;j<n;j++){
+            if(arr[i]!=arr[j]&&arr[i]-arr[j]<min){
                 min=arr[i]-arr[j];
                 idx1=i;
                 idx2=j;

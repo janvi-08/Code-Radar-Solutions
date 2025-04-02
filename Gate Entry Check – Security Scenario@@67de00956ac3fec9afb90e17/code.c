@@ -6,7 +6,7 @@ int gateOpen(int threshold,int entryTimes[],int n){
             k++;
         } 
     }
-    if(k==threshold ){
+    if(k==threshold || k-1==threshold ){
         return 1;
     }
     return 0;

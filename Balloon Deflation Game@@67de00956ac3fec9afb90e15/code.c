@@ -16,7 +16,7 @@ int deflateBalloons(int air[],int n){
         break;
     }
     for(int i=0;i<n;i++){
-        balloons[i]=ballons[i]-min;
+        balloons[i]=balloons[i]-min;
     }
     }
     for(int i = 0; i < n; i++) {
@@ -24,4 +24,5 @@ int deflateBalloons(int air[],int n){
                 count++;
             }
         }
+        return count;
 }

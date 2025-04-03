@@ -25,6 +25,6 @@ int deflateBalloons(int air[],int n){
                 count++;
             }
         }
-        return count;
+        printf("%d/n",count);
     }
 }

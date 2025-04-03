@@ -46,19 +46,3 @@ int deflateBalloons(int air[], int n) {
     return 0; // No need to return anything for this task
 }
 
-int main() {
-    int n;
-    scanf("%d", &n); // Read the number of balloons
-    
-    int air[n]; // Array to store the initial air values of the balloons
-    
-    // Read the air values of the balloons
-    for (int i = 0; i < n; i++) {
-        scanf("%d", &air[i]);
-    }
-    
-    // Call the function to process the balloon deflation
-    deflateBalloons(air, n);
-    
-    return 0;
-}

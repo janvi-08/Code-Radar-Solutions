@@ -13,7 +13,7 @@ int deflateBalloons(int air[],int n){
         }
     
     if(min==INT_MAX){
-        break
+        break;
     }
     for(int i=0;i<n;i++){
         balloons[i]=ballons[i]-min;

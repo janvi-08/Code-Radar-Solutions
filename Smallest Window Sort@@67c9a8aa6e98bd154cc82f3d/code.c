@@ -4,12 +4,14 @@ int findUnsortedSubarray(int arr[],int n){
     for(int i=0;i<n;i++){
         if(arr[i]<arr[i-1]){
             left=i-1;
+            break;
         }
         
     }
     for(int i=n-2;i>=0;i--){
         if(arr[i]>arr[i+1]){
-            left=i+1;
+            right=i+1;
+            break;
         } 
     }
     if (left == -1 || right == -1) {

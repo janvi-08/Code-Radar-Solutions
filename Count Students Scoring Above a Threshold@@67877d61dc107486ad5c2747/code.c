@@ -18,7 +18,7 @@ int main(){
     int count=0;
     scanf("%f",&k);
     for(int i=0;i<n;i++){
-        if(s[i].roll>k){
+        if(s[i].marks>k){
             count++;
         }
     }

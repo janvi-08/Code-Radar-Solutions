@@ -20,7 +20,8 @@ int main(){
         if(s[i].roll==k){
         printf("Roll Number: %d,",s[i].roll);
         printf(" Name: %s,",s[i].name);
-        printf(" Marks: %.2f\n",s[i].marks);  
+        printf(" Marks: %.2f\n",s[i].marks); 
+        break; 
         }
         else{
             printf("Student not found");

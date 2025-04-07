@@ -1,34 +1,24 @@
-#include <stdio.h>
-#include <stdbool.h>
-
-int countwords(const char *n) {
-    int words = 0;
-    bool inword = false;
-
-    while (*n != '\0') {
-        if (*n == ' ' || *n == '\t' || *n == '\n') {
-            inword = false;
-        } else {
-            // Only increment word count when transitioning from space to a word
-            if (!inword) {
-                words++;
-                inword = true;
-            }
+#include<stdio.h>
+#include<string.h>
+#include<stdbool.h>
+int counting(char *ch){
+    int count=0;
+    bool inword=false;
+    while(*ch!='\0'){
+        if(ch==' ' || ch=='\t' ||ch=='\n'){
+            inword=false;
         }
-        n++; // Move to next character
+        else(!inword){
+            count++;
+            inword=true;
+        }
+        ch++;
     }
-
-    return words;
+    return count;
 }
-
-int main() {
-    char n[1000];  // Array to store input string
-
-    // Read input string (this will read a full line of input)
-    fgets(n, sizeof(n), stdin);
-
-    // Call countwords function and print the result
-    printf("%d\n", countwords(n));
-
-    return 0;
+int main(){
+    char ch[1000];
+    fgets(ch,sizeof(ch),stdin);
+    int res=counting(*ch);
+    printf("%d",res);
 }

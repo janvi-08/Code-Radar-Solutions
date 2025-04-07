@@ -13,7 +13,7 @@ int main(){
     float sum=0.0;
     for(int i=0;i<7;i++){
         strcpy(s.days[i].name,daynames[i]);
-        // scanf("%f",&s.days[i].temp);
+        scanf("%f",&s.days[i].temp);
         sum += s.days[i].temp;
     }
     float avg=sum/7.0;

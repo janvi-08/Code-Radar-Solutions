@@ -8,7 +8,7 @@ int counting(char *ch){
         if(*ch==' ' || *ch=='\t' ||*ch=='\n'){
             inword=false;
         }
-        else(!inword){
+        else if(!inword){
             count++;
             inword=true;
         }
@@ -19,6 +19,6 @@ int counting(char *ch){
 int main(){
     char ch[1000];
     fgets(ch,sizeof(ch),stdin);
-    int res=counting(*ch);
+    int res=counting(ch);
     printf("%d",res);
 }

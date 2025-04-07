@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdbool.h>
-int main(){
     int  countwords(char *n){
     int words=0;
     bool inword=false;
@@ -17,7 +16,7 @@ int main(){
     }
     return words;
 }
-}
+
 int main(){
     char *n;
     scanf("[^\n]s",&n);

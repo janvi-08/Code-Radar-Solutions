@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char ch[100];
-    scanf("%[^\n]",ch);
+    fgets(ch,sizeof(ch),stdin);
     int max=0;
     char idx;
     for(int i=0;ch[i]!='\0';i++){

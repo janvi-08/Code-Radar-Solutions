@@ -16,15 +16,15 @@ int main(){
         scanf("%f",&s[i].amount);
     }
     for(int i=0;i<n;i++){
-        if(s[i].type=="Cars "){
+        if(s[i].type=="Car "){
             s[i].sum += s[i].amount;
             printf("Cars: %.2f,", s[i].sum);
         }
-        else if(s[i].type=="Trucks"){
+        else if(s[i].type=="Truck"){
             s[i].sum += s[i].amount;
             printf(" Trucks: %.2f,", s[i].sum);
         }
-        else if(s[i].type=="Bikes"){
+        else if(s[i].type=="Bike"){
             s[i].sum += s[i].amount;
             printf(" Bikes : %.2f,", s[i].sum);
         }

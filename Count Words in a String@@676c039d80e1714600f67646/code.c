@@ -5,7 +5,7 @@ int counting(char *ch){
     int count=0;
     bool inword=false;
     while(*ch!='\0'){
-        if(ch==' ' || ch=='\t' ||ch=='\n'){
+        if(*ch==' ' || *ch=='\t' ||*ch=='\n'){
             inword=false;
         }
         else(!inword){

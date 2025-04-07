@@ -12,7 +12,7 @@ int main(){
     char *daynames[]={"Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"};
     float sum=0;
     for(int i=0;i<7;i++){
-        strcpy(s.days[i].daynames[i]);
+        strcpy(s.days[i].name,daynames[i]);
         scanf("%f",&s.days[i].temp);
         sum += s.days[i].temp;
     }

@@ -1,7 +1,8 @@
 #include<stdio.h>
 #include<string.h>
 #include<stdbool.h>
-void countwords(*n){
+int main(){
+    int  countwords(char *n){
     int words=0;
     bool inword=false;
     while(n!='\0'){
@@ -14,6 +15,8 @@ void countwords(*n){
         }
         str++;
     }
+    return words;
+}
 }
 int main(){
     char *n;

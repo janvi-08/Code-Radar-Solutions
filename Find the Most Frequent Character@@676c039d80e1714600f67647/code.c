@@ -2,8 +2,8 @@
 #include<string.h>
 int main(){
     char ch[100];
-    scanf("%[^\n]s",ch);
-    int max=-1;
+    scanf("%[^\n]",ch);
+    int max=0;
     char idx;
     for(int i=0;ch[i]!='\0';i++){
         int count=0;

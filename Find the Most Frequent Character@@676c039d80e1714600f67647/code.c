@@ -22,6 +22,6 @@ int main(){
             idx = ch[i];  
         }
     }
-}
+
  printf("%c",idx);
 }

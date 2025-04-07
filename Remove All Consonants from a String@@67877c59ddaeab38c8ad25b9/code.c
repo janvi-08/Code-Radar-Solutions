@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <string.h>
-
+#include <ctype.h> 
 int main() {
     char ch[100];
     char result[100]; 

@@ -29,6 +29,6 @@ int main(){
     }
     printf(" Cars: %.2f,", car_sum);
     printf(" Trucks: %.2f,", truck_sum);
-    printf(" Bike: %.2f,", bike_sum);
+    printf(" Bike: %.2f," bike_sum);
     
 }

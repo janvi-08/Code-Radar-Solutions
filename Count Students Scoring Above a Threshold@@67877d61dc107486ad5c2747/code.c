@@ -19,9 +19,9 @@ int main(){
     scanf("%f",&k);
     for(int i=0;i<n;i++){
         if(s[i].roll>k){
-            count++
+            count++;
         }
     }
-    printf("Count of students scoring above %f: %d",k,count);
+    printf("Count of students scoring above %.2f: %d",k,count);
     
 }

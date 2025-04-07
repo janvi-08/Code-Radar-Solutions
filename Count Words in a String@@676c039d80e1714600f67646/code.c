@@ -5,7 +5,7 @@ int main(){
     int  countwords(char *n){
     int words=0;
     bool inword=false;
-    while(n!='\0'){
+    while(*n!='\0'){
         if(*n==' '|| *n=='\t' || *n=='\n'){
             inword=false;
         }

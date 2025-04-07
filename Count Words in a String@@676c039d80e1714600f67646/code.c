@@ -13,7 +13,7 @@ int main(){
             words++;
             inword=true;
         }
-        str++;
+        n++;
     }
     return words;
 }

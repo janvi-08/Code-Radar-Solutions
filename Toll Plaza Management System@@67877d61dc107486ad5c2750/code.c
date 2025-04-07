@@ -15,6 +15,7 @@ int main(){
         scanf("%s",s[i].type);
         scanf("%f",&s[i].amount);
     }
+    float car_sum = 0.0, truck_sum = 0.0, bike_sum = 0.0;
     for(int i=0;i<n;i++){
         if(strcmp(s[i].type,"Car")==0){
             car_sum += s[i].amount;

@@ -15,7 +15,7 @@ int main(){
         scanf("%f",&s[i].marks);
     }
     int k=50;
-    int ispass=0;
+    int ispass=1;
     for(int i=0;i<n;i++){
         if(s[i].marks<k){
             ispass=0;
@@ -23,10 +23,10 @@ int main(){
         }
     }
     if(ispass==0){
-    printf("Not All Passed");
+    printf("Not All Passed\n");
     }
     else{
-        printf("All Passed");
+        printf("All Passed\n");
     }
      
 }

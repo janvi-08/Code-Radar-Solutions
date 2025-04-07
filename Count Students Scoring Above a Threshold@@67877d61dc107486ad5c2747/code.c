@@ -14,7 +14,7 @@ int main(){
         scanf("%s",s[i].name);
         scanf("%f",&s[i].marks);
     }
-    int k;
+    float k;
     int count=0;
     scanf("%f",&k);
     for(int i=0;i<n;i++){

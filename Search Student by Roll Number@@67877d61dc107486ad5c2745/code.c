@@ -21,11 +21,11 @@ int main(){
         printf("Roll Number: %d,",s[i].roll);
         printf(" Name: %s,",s[i].name);
         printf(" Marks: %.2f\n",s[i].marks); 
-        break; 
+        return 0;
         }
-        else{
+        
             printf("Student not found");
-        }
+        
     }
     
 }

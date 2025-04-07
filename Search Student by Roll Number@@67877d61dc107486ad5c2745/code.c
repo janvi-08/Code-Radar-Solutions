@@ -21,9 +21,9 @@ int main(){
         printf("Roll Number: %d,",s[i].roll);
         printf(" Name: %s,",s[i].name);
         printf(" Marks: %.2f\n",s[i].marks); 
+        return 0;
         }
     }
         printf("Student not found"); 
     }
     
-}

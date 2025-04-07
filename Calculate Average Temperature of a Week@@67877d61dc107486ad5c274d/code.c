@@ -18,5 +18,6 @@ int main(){
     }
     float avg=sum/7.0;
     printf("Average Temperature: %.2f",avg);
+    return 0;
     }
      

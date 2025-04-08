@@ -3,7 +3,7 @@
 int main(){
     char ch[100];
     scanf("%s",ch);
-    for(int i=0;i!='\0';i++){
+    for(int i=0;ch[i]!='\0';i++){
         if(ch[i]==' '){
             continue;
         }

@@ -8,7 +8,7 @@ int main(){
             continue;
         }
     }
-    for(int i=0;i!='\0';i++){
+    for(int i=0;ch[i]!='\0';i++){
         printf("%c",ch[i]);
     }
 }

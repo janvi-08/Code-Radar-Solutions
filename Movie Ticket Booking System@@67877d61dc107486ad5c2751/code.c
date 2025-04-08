@@ -15,17 +15,17 @@ int main(){
     }
     int std_sum=0,pre_sum=0,vip_sum=0;
     for(int i=0;i<n;i++){
-        if ((strcmp(s[i].type,Standard)=0)){
+        if ((strcmp(s[i].type,"Standard")=0)){
             std_sum += s[i].price;
         }
-        else if ((strcmp(s[i].type,Premium)=0)){
+        else if ((strcmp(s[i].type,"Premium")=0)){
             pre_sum += s[i].price;
         }
-        else if ((strcmp(s[i].type,VIP)=0)){
+        else if ((strcmp(s[i].type,"VIP")=0)){
             vip_sum += s[i].price;
         }
     }
-    printf("Standard: .2f\n,",std_sum);
-    printf("Premium: .2f\n,",std_sum);
-    printf("VIP: .2f\n",std_sum);
+    printf("Standard: %.2f\n,",std_sum);
+    printf("Premium: %.2f\n,",std_sum);
+    printf("VIP: %.2f\n",std_sum);
 }

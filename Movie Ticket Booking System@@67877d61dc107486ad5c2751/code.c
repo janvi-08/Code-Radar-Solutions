@@ -26,7 +26,7 @@ int main(){
             vip_sum += s[i].price;
         }
     }
-    printf("Standard: %.2f\n,",std_sum);
-    printf("Premium: %.2f\n,",pre_sum);
+    printf("Standard: %.2f,\n",std_sum);
+    printf("Premium: %.2f,\n",pre_sum);
     printf("VIP: %.2f\n",vip_sum);
 }

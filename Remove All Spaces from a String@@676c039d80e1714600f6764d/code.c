@@ -2,7 +2,7 @@
 #include<string.h>
 int main(){
     char ch[100];
-    scanf("%s",ch);
+    scanf("%[^\n]",ch);
     for(int i=0;ch[i]!='\0';i++){
         if(ch[i]==' '){
             continue;

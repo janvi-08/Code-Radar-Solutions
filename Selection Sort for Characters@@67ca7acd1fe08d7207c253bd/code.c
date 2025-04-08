@@ -2,11 +2,11 @@
 int selectionSort(char arr[],int n){
     for(int i=0;i<n-1;i++){
         char min='z';
-        int idx=-1;
+        int index=-1;
         for(int j=i;j<=n-1;j++){
             if(arr[j]<min){
             min=arr[j];
-            idx=j;
+            index=j;
         }
     }
     int temp=arr[index];

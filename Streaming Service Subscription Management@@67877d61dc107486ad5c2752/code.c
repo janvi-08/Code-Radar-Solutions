@@ -10,8 +10,8 @@ int main(){
     scanf("%d",&n);
     struct service s[n];
     for(int i=0;i<n;i++){
-        scanf("%s",s[i].name[i]);
-        scanf("%s",s[i].type[i]);
+        scanf("%s",s[i].name);
+        scanf("%s",s[i].type);
         scanf("%.2f",&s[i].price);
     }
     int b_count=0,s_count=0,p_count=0;

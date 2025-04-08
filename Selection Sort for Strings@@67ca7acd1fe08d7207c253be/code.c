@@ -8,7 +8,7 @@ void selectionSort(char arr[][100],int n){
             }
         }
         if(min!=i){
-            int temp=arr[i];
+            char temp=arr[i];
             int[i]=arr[min];
             arr[min]=temp;
         }

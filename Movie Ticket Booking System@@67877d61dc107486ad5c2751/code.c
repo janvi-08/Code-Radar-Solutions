@@ -14,7 +14,7 @@ int main(){
         scanf("%s",s[i].type);
         scanf("%d",&s[i].price);
     }
-    int std_sum=0,pre_sum=0,vip_sum=0;
+    int std_sum=0.0,pre_sum=0.0,vip_sum=0.0;
     for(int i=0;i<n;i++){
         if ((strcmp(s[i].type,"Standard")==0)){
             std_sum += s[i].price;

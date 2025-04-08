@@ -12,7 +12,7 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%s",s[i].name);
         scanf("%s",s[i].type);
-        scanf("%.2f",&s[i].price);
+        scanf("%f",&s[i].price);
     }
     int b_count=0,s_count=0,p_count=0;
     float p_sum=0.0,s_sum=0.0,b_sum=0.0;

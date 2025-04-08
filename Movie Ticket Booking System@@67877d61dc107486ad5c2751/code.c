@@ -11,6 +11,6 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%s",s[i].name);
         scanf("%s",s[i].type);
-        scanf("%d",s[i].price);
+        scanf("%d",&s[i].price);
     }
 }

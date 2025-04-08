@@ -14,7 +14,7 @@ int main(){
         scanf("%d",&s[i].temp);
     }
     for(int i=0;i<n;i++){
-        sum += s.[i].temp;
+        sum += s[i].temp;
     }
     float avg=sum/7.0;
     printf("Average Temperature: %.2f",avg);

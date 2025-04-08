@@ -7,6 +7,11 @@ void selectionSort(char arr[][100],int n){
                 min=j;
             }
         }
+        if(min!=i){
+            int temp=arr[i];
+            int[i]=arr[min];
+            arr[min]=temp;
+        }
     }
 }
 int printArray(char arr[][100],int n){

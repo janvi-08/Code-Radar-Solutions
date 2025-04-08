@@ -2,7 +2,7 @@
 #include<string.h>
 struct Day{
     char name[100];
-    float temp;
+    int temp;
 };
 struct week{
     struct Day days[7];

@@ -25,12 +25,12 @@ int main(){
             s_count++;
             s_sum += s[i].price;
         }
-        if(strcmp(s[i].type,"Premium")==0){
+        else if(strcmp(s[i].type,"Premium")==0){
             p_count++;
             p_sum += s[i].price;
         }
     }
-    printf("Basic: %d Users, Revenue: %.2f",b_count,b_sum);
-    printf(" Standard: %d Users, Revenue: %.2f",s_count,s_sum);
+    printf("Basic: %d Users, Revenue: %.2f;",b_count,b_sum);
+    printf(" Standard: %d Users, Revenue: %.2f;",s_count,s_sum);
     printf(" Premium: %d Users, Revenue: %.2f",p_count,p_sum);
 }

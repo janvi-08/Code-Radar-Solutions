@@ -10,9 +10,9 @@ int main(){
     scanf("%d",&n);
     struct service s[n];
     for(int i=0;i<n;i++){
-        scanf("%s",name[i]);
-        scanf("%s",type[i]);
-        scanf("%.2f",&price[i]);
+        scanf("%s",s[i].name[i]);
+        scanf("%s",s[i].type[i]);
+        scanf("%.2f",&s[i].price);
     }
     int b_count=0,s_count=0,p_count=0;
     float p_sum=0.0,s_sum=0.0,b_sum=0.0;

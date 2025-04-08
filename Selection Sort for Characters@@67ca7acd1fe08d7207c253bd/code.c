@@ -5,13 +5,14 @@ int selectionSort(char arr[],int n){
         int idx=-1;
         for(int j=i;j<=n-1;j++){
             if(arr[j]<min){
-            min=arrr[j];
+            min=arr[j];
             idx=j;
         }
     }
     int temp=arr[index];
     arr[index]=arr[i];
     arr[i]=temp;
+}
 }
 int printArray(char arr[],int n){
     for(int i=0;i<n;i++){

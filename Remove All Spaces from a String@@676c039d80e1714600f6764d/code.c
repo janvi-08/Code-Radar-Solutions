@@ -4,7 +4,7 @@ int main(){
     char ch[100];
     scanf("%s",ch);
     for(int i=0;i!='\0';i++){
-        if(ch[i]==" "){
+        if(ch[i]==' '){
             continue;
         }
     }

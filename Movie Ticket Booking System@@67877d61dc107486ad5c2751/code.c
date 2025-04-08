@@ -27,6 +27,6 @@ int main(){
         }
     }
     printf("Standard: %.2f,",std_sum);
-    printf("Premium: %.2f,",pre_sum);
-    printf("VIP: %.2f\n",vip_sum);
+    printf(" Premium: %.2f,",pre_sum);
+    printf(" VIP: %.2f\n",vip_sum);
 }

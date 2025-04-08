@@ -1,4 +1,5 @@
 #include<stdio.h>
+#include<string.h>
 struct ticket{
     char name[100];
     char type[100];

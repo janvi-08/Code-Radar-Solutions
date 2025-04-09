@@ -6,12 +6,18 @@ int main(){
     for(int i=0;i<n;i++){
         scanf("%d",&arr[i]);
     }
+    int brr[n];
+    int idx=0;
      for(int i=0;i<n;i++){
         if(arr[i]==0){
             continue;
         }
+        else{
+            brr[idx]=arr[i];
+            idx++;
+        }
     }
     for(int i=0;i<n;i++){
-        printf("%d",arr[i]);
+        printf("%d ",brr[i]);
     }
 }
